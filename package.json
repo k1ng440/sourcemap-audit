@@ -1,0 +1,44 @@
+{
+  "name": "sourcemap-reconstruct",
+  "version": "1.0.0",
+  "description": "Security audit tool: detect exposed source maps and reconstruct original JS/TS sources",
+  "main": "sourcemap-audit.mjs",
+  "type": "module",
+  "bin": {
+    "sourcemap-audit": "./sourcemap-audit.mjs",
+    "sm-reconstruct": "./reconstruct.mjs",
+    "sm-download": "./download-sourcemaps.mjs"
+  },
+  "scripts": {
+    "audit": "node sourcemap-audit.mjs",
+    "download": "node download-sourcemaps.mjs",
+    "reconstruct": "node reconstruct.mjs"
+  },
+  "keywords": [
+    "security",
+    "sourcemap",
+    "audit",
+    "recon",
+    "javascript",
+    "typescript"
+  ],
+  "files": [
+    "*.mjs",
+    "README.md",
+    "LICENSE",
+    ".gitignore"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Asaduzzaman Pavel \u003ccontact@iampavel.dev\u003e (https://iampavel.dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaduzzaman-pavel/sourcemap-reconstruct.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asaduzzaman-pavel/sourcemap-reconstruct/issues"
+  },
+  "homepage": "https://iampavel.dev"
+}

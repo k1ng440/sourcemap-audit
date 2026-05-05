@@ -1,0 +1,11 @@
+output/
+reconstructed/
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
